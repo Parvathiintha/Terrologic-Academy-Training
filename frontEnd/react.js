@@ -1,4 +1,4 @@
-import React from "https://esm.sh/react";
+import React from "react";
 import ReactDOM from "https://esm.sh/react-dom/client";
 
 const rootElt =document.getElementById("root");
