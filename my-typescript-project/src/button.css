@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    text-align:center;
+  
+}
+.card{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    transition:0.3s;
+    border-radius:5px;
+    background-color:lightgrey;
+    text-align:center;
+    marginBottom:15px;
+    
+}
