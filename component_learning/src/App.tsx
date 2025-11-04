@@ -3,7 +3,7 @@ import React from "react";
 
 import "./App.css";
 // import WelcomeMessage from "./WelcomeMessage";
-// import Greeting from "./Greeting";
+import Greeting from "./Greeting";
 import ConditionalRendering from "./ConditionalRendering";
 import ItemList from "./ListUsage";
 import ArrayTraversal from "./ArrayTraversal";
@@ -24,7 +24,7 @@ function App() {
       {/* <ParentComponent/> */}
 
       {/* <WelcomeMessage LoggedIn={true} /> */}
-      {/* <Greeting isLoggedIn={false} isAuthorized={false}/> */}
+      <Greeting isLoggedIn={true} />
       {/* <ConditionalRendering isLogedIn={false} /> */}
       {/* <ItemList /> */}
       <ArrayTraversal />
