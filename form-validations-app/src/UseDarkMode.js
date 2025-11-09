@@ -7,7 +7,6 @@ function useDarkMode() {
     return savedTheme ? JSON.parse(savedTheme) : false;
   });
 
-  // Step 2: Whenever isDarkMode changes, update <body> class and localStorage
   useEffect(() => {
     if (isDarkMode) {
       document.body.classList.add("dark-mode");

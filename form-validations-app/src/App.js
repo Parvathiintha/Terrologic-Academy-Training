@@ -12,8 +12,8 @@ function App() {
       {/* <MyInput label="Name" /> */}
       <MyForm />
       <CustomForm/>
-      <FormWithErrors/>
-      <ToggleExample/>
+      {/* <FormWithErrors/> */}
+      {/* <ToggleExample/> */}
       <ThemeToggler/>
  </>
   );
